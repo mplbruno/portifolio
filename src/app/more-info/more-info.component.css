@@ -1,0 +1,59 @@
+
+.p-wrapper::before{
+  content: '' ;
+  background: #2E6FF2;
+  height: 100vh;
+  width: 25vw;
+  position: absolute;
+  z-index: -1;
+}
+
+.animation{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+  .mt-4{
+
+    padding: 10px;
+    width: 450px;
+    background: var(--background);
+    }
+
+    .line{
+      border-right: 2px solid rgba(255, 255, 255, .75);
+      color: black;
+      font-family: monospace;
+      font-size: 2em;
+      margin: 0, auto;
+      white-space: nowrap ;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .type-animation{
+      animation: blinkCursor 500ms steps(40) infinite, typing 4s steps(40) 1s normal both;
+    }
+
+    @keyframes typing {
+      from{
+        width: 0;
+
+      }
+      to{
+        width: 14em;
+      }
+    }
+
+    @keyframes blinkCursor{
+
+      from{
+        border-right-color: black;
+      }
+      to{
+        border-right-color: transparent;
+      }
+      }

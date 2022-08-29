@@ -1,0 +1,29 @@
+.titulo{
+  text-align: center;
+  margin-top: 10px;
+}
+
+iframe{
+  display: block;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.flex > div{
+flex: 1 1 200px;
+margin: 5px;
+}
+/*.flex > div:hover{
+background-color: aquamarine;
+}*/
+iframe:hover{
+width:100%;
+height:100%;
+
+}
+
+
