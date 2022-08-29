@@ -1,1 +1,4 @@
-{}
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/96a261db-5b38-4cba-948f-143cd63fde03/microsoft.web/sites/subscriptions/96a261db-5b38-4cba-948f-143cd63fde03/resourceGroups/portifolio/providers/Microsoft.Web/sites/webportifoliomb",
+  "appService.deploySubpath": "dist"
+}
