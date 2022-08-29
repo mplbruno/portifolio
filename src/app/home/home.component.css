@@ -21,13 +21,15 @@
   justify-content: space-between;
 }
 .p-tag{
-  background: #989898;
+  font-family: 'Source Serif Pro', serif;
+  background: #5e5959;
   color: #fff;
   padding: 5px 10px;
   font-size: 14px;
 }
 .p-des{
-  color: #756c6c;
+  font-family: 'Source Serif Pro', serif;
+  color: #3d3a3a;
   width: 80%;
   text-align: justify;
 }
@@ -51,3 +53,59 @@ form .btn-warning{
   padding: 10px 35px;
   font-weight: 500;
 }
+
+.mt-4
+{
+  font-family:'Source Serif Pro', serif;
+  color: #3d3a3a;
+}
+
+.animation{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+  .mt-4{
+
+    padding: 10px;
+    width: 450px;
+    background: var(--background);
+    }
+
+    .line{
+      border-right: 2px solid rgba(255, 255, 255, .75);
+      color: black;
+      font-family: monospace;
+      font-size: 2em;
+      margin: 0, auto;
+      white-space: nowrap ;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .type-animation{
+      animation: blinkCursor 500ms steps(40) infinite, typing 4s steps(40) 1s normal both;
+    }
+
+    @keyframes typing {
+      from{
+        width: 0;
+
+      }
+      to{
+        width: 14em;
+      }
+    }
+
+    @keyframes blinkCursor{
+
+      from{
+        border-right-color: black;
+      }
+      to{
+        border-right-color: transparent;
+      }
+      }
